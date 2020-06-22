@@ -14,7 +14,8 @@ Variables
 
 :root {
   /* main colors */
-    --clr-cyan: #21ffe2;
+    
+    --clr-cya: #21ffe2;
     --clr-blue: #152568;
     --clr-dark-blue: #061552;
     --clr-darkest-blue: #000b38;
