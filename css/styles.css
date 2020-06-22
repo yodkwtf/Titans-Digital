@@ -14,8 +14,7 @@ Variables
 
 :root {
   /* main colors */
-    
-    --clr-cya: #21ffe2;
+    --clr-cyan: #21ffe2;
     --clr-blue: #152568;
     --clr-dark-blue: #061552;
     --clr-darkest-blue: #000b38;
@@ -72,7 +71,7 @@ Global Styles
     box-sizing: border-box;
 }
 
-@media screen and (max-width:400px){
+@media screen and (max-width:378px){
   *{
     overflow-x: hidden;
     }
@@ -371,6 +370,13 @@ HERO
     min-height: 100vh;
     position: relative;
 }
+
+@media screen and (max-width:400px){
+    .hero{
+        min-height: calc(100vh - 60px);
+    }
+}
+
 .hero-banner{
     position: absolute;
     top: 50%;
