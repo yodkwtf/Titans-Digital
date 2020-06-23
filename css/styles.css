@@ -14,16 +14,11 @@ Variables
 
 :root {
   /* main colors */
-    --clr-cyan: #21ffe2;
-    --clr-blue: #152568;
-    --clr-dark-blue: #061552;
-    --clr-darkest-blue: #000b38;
     --clr-red: #a8271e;
     --clr-dark-red: #d3291d;
     --clr-yellow: #fca211b4;
     --clr-brown-title:#D2BF8C;
     --clr-brown-bcg: #e6dbd0;
-    --clr-dark-grey: #191716;
   /* darkest grey - used for headings */
     --clr-grey-1: hsl(209, 61%, 16%);
     --clr-grey-2: hsl(211, 39%, 23%);
@@ -71,7 +66,7 @@ Global Styles
     box-sizing: border-box;
 }
 
-@media screen and (max-width:378px){
+@media screen and (max-width:370px){
   *{
     overflow-x: hidden;
     }
@@ -411,18 +406,27 @@ HERO
 }
 .hero-icon{
     color: var(--clr-dark-red);
-    font-size: 1.5rem;
+    /* font-size: 0.8rem; */
     border: 2px solid var(--clr-dark-red);
     border-radius: 50%;
-    padding: 0.25rem 0.7rem;
+    /* padding: 1rem; */
+    width: 3rem;
+    height: 3rem;
     position: absolute;
     bottom: 5%;
     left: 50%;
     transform: translate(-50%,50%);
     transition: var(--transition);
+    display: grid;
+    place-items: center;
 }
 .hero-icon:hover{
     background: var(--clr-black);
+}
+.hero-icon::before{
+    content: '\f150';
+    font-family:"Font Awesome 5 Free";
+    font-size: 1.5rem;
 }
 
 /* animations */
@@ -483,6 +487,9 @@ HERO
 }
 
 @media screen and (max-width:476px){
+    .hero-heading{
+        padding: 0 5rem;
+    }
 }
 
 /* 
