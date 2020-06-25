@@ -626,6 +626,12 @@ SERVICES
     .services-center .service:nth-of-type(4){
         order: 3;
     }
+    .services-center .service:nth-of-type(5){
+        order: 5;
+    }
+    .services-center .service:nth-of-type(6){
+        order: 6;
+    }
 }
 
 
