@@ -725,6 +725,7 @@ PROJECTS
     position: relative;
     overflow: hidden;
     border-radius: var(--radius);
+    margin-right: 10px;
 }
 .project-image{
     transition: all 3s;
