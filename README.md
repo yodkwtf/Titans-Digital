@@ -4,4 +4,4 @@ A website for an online web agency designed with html-css and javascipt. The des
 
 #### Live Preview
 
-(https://titansdigital.netlify.app/)
+https://titansdigital.netlify.app/
